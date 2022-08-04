@@ -9,7 +9,7 @@ wlan.active(True)
 def connect_wifi():
     while not wlan.isconnected():
         try:
-            wlan.connect("<wlan>", "<password>")
+            wlan.connect("Michael2.4G", "Michael2.4G")
             time.sleep(1)
         except Exception as error:
             print("Error:", error)
